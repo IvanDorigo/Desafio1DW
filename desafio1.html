@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="telaCadastro.css">
+</head>
+<body>
+   <header>
+    <h1>Cadastro para reserva de vaga de estacionamento</h1>
+    <p>Preencha o formulário abaixo para realizar o cadastro:</p>
+   </header> 
+   <main>
+
+    <form id="formulario">
+        <label for="nomeDoProrietario">Nome do proprietário:</label> <br>
+        <input type="text" id="nomeDoProrietario" name="nomeDoProrietario"required>
+        <br><br>
+        <label for="apartamento">Número do Apartamento:</label> <br>
+        <input type="text" id="apartamento" name="apartamento"required>
+        <br><br>
+        <label for="bloco">Número do Bloco:</label> <br>
+        <input type="text" id="bloco" name="bloco"required>
+        <br><br>
+        <label for="placaVeiculo">Placa do Veículo:</label> <br>
+        <input type="text" id="placaVeiculo" name="placaVeiculo"required>
+        <br><br>
+        <label for="marcaVeiculo">Marca do Veículo:</label> <br>
+        <input type="text" id="marcaVeiculo" name="marcaVeiculo"required>
+        <br><br>
+        <label for="modeloVeiculo">Modelo do Veículo:</label> <br>
+        <input type="text" id="modeloVeiculo" name="modeloVeiculo"required>
+        <br><br>
+        <label for="corVeiculo">Cor do Veículo:</label> <br>
+        <input type="text" id="corVeiculo" name="corVeiculo"required>
+        <br><br>
+        <label for="numeroVaga">Número da vaga</label> <br>
+        <input type="text" id="numeroVaga" name="numeroVaga"required>
+        <br><br>
+        <input type="submit" id=gravarReserva value="Gravar">
+      </form>
+      <button onclick="listaDeVagas()">Consultar vagas</button>
+   </main>
+   <script src="javascript.js"></script>
+</body>
+</html>
